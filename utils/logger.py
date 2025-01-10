@@ -38,11 +38,25 @@ def setup_logging():
         # Ensure the directory exists
         os.makedirs(os.path.dirname(log_file), exist_ok=True)
 
-        logging.basicConfig(
-            filename=log_file,
-            level=logging.INFO,
-            format="%(asctime)s - %(levelname)s - %(message)s",
-        )
+        # 핸들러 생성
+        file_handler = logging.FileHandler(log_file, mode="a", encoding="utf-8")
+        console_handler = logging.StreamHandler()
+
+        # 포맷터 설정
+        formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+        file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+
+        # 루트 로거에 핸들러 추가
+        root_logger = logging.getLogger()
+        root_logger.setLevel(logging.INFO)
+
+        # 기존 핸들러 제거 후 새로 추가
+        if root_logger.hasHandlers():
+            root_logger.handlers.clear()
+        root_logger.addHandler(file_handler)
+        root_logger.addHandler(console_handler)
+
         logging.info("Logging initialized successfully.")
     except Exception as e:
         print(f"Error initializing logging: {e}")

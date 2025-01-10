@@ -14,3 +14,6 @@
 2025-01-10 16:53:45,089 - ERROR - ÇÊ¼ö ¼³Á¤°ªÀÌ ´©¶ôµÇ¾ú½À´Ï´Ù: BASE_URL, USERNAME, USER_TOKEN
 2025-01-10 16:53:45,089 - ERROR - Error processing user w: ÇÊ¼ö ¼³Á¤°ªÀÌ ´©¶ôµÇ¾ú½À´Ï´Ù: BASE_URL, USERNAME, USER_TOKEN
 2025-01-10 16:53:59,730 - INFO - Logging initialized successfully.
+2025-01-10 17:34:43,600 - INFO - Logging initialized successfully.
+2025-01-10 17:34:48,980 - ERROR - í•„ìˆ˜ ì„¤ì •ê°’ì´ ëˆ„ë½ë˜ì—ˆìŠµë‹ˆë‹¤: BASE_URL, USERNAME, USER_TOKEN
+2025-01-10 17:34:48,980 - ERROR - Error processing user w: í•„ìˆ˜ ì„¤ì •ê°’ì´ ëˆ„ë½ë˜ì—ˆìŠµë‹ˆë‹¤: BASE_URL, USERNAME, USER_TOKEN

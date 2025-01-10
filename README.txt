@@ -34,4 +34,4 @@ pip install pyinstaller
 python app.py
 
 # 실행 파일 빌드
-pyinstaller --onefile --add-data "config/*:config" --add-data "data/*:data" --add-data "gui/*:gui" --add-data "modules/*:modules" --add-data "utils/*:utils" --noconsole app.py
+python -m pyinstaller --onefile --add-data "config/*:config" --add-data "data/*:data" --add-data "gui/*:gui" --add-data "modules/*:modules" --add-data "utils/*:utils" --noconsole app.py

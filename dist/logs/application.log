@@ -1,0 +1,16 @@
+2025-01-10 12:35:02,252 - INFO - Logging initialized successfully.
+2025-01-10 12:35:26,009 - INFO - Sending GET request to /rest/api/3/users/search with params={'startAt': 0, 'maxResults': 100}, body=None.
+2025-01-10 12:35:26,011 - ERROR - Error during GET request to /rest/api/3/users/search: Invalid URL '/rest/api/3/users/search': No scheme supplied. Perhaps you meant https:///rest/api/3/users/search?
+2025-01-10 12:35:26,012 - ERROR - Error fetching users: Invalid URL '/rest/api/3/users/search': No scheme supplied. Perhaps you meant https:///rest/api/3/users/search?
+2025-01-10 12:52:59,752 - INFO - Logging initialized successfully.
+2025-01-10 15:42:56,560 - INFO - Logging initialized successfully.
+2025-01-10 16:12:45,464 - INFO - Logging initialized successfully.
+2025-01-10 16:20:54,616 - INFO - Logging initialized successfully.
+2025-01-10 16:28:41,463 - INFO - Logging initialized successfully.
+2025-01-10 16:42:23,500 - INFO - Logging initialized successfully.
+2025-01-10 16:53:32,161 - INFO - Logging initialized successfully.
+2025-01-10 16:53:38,024 - ERROR - 필수 설정값이 누락되었습니다: BASE_URL, USERNAME, USER_TOKEN
+2025-01-10 16:53:38,024 - ERROR - Error fetching users: 필수 설정값이 누락되었습니다: BASE_URL, USERNAME, USER_TOKEN
+2025-01-10 16:53:45,089 - ERROR - 필수 설정값이 누락되었습니다: BASE_URL, USERNAME, USER_TOKEN
+2025-01-10 16:53:45,089 - ERROR - Error processing user w: 필수 설정값이 누락되었습니다: BASE_URL, USERNAME, USER_TOKEN
+2025-01-10 16:53:59,730 - INFO - Logging initialized successfully.
